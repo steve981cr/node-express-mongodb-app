@@ -1,0 +1,17 @@
+<% include ../layouts/header %>
+<h1 class='my-4'>
+  Articles
+  <a href='/articles/create' class='btn btn-outline-primary float-right'>Create new article</a>
+</h1>
+<ul class="list-group">
+  <% articles.forEach((article) => { %>
+    <li class="list-group-item">
+      <% if (!article.published) { %>
+        <span class="badge badge-danger">Draft</span>
+      <% } %>
+      <a href="/articles/<%= article.id %>"><%= article.title %></a>
+      <small>(<%= article.updatedAt.toLocaleString("en-US", {month: 'short', day: 'numeric', year: 'numeric'}); %>)</small>
+    </li>
+  <% }); %>
+</ul>
+<% include ../layouts/footer %>
