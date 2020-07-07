@@ -1,7 +1,7 @@
 # node-express-mongodb-app
 
 This application goes along with the Build a basic web application with Node.js and Express video tutorial
-https://www.youtube.com/watch?v=aE66RcBksk4&list=PLc_Hd5ZLCxMHgIgRLikj7bvINeVIq6KmL
+https://www.youtube.com/playlist?list=PLc_Hd5ZLCxMHgIgRLikj7bvINeVIq6KmL
 
 A cheatsheet, and the CheatSheet Desktop App are available at: https://www.learnbycheating.com
 
